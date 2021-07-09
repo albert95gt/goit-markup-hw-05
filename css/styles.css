@@ -598,7 +598,8 @@ img {
     transform: translateY(100%);
     transition: transform 250ms var(--transition-timing-function);
 }
-.card-link:hover .card-list-img-descr {
+.card-link:hover .card-list-img-descr,
+.card-link:focus .card-list-img-descr {
   transform: translateY(0);
 }
  .card-list-item {
